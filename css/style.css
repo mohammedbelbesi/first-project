@@ -1,0 +1,247 @@
+@charset "UTF-8";
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+header .navbar {
+  background-color: #fff !important;
+}
+
+header .navbar .container .collapse .navbar-nav .nav-item {
+  margin-left: 20px;
+}
+
+header .navbar .container .collapse .navbar-nav .nav-item:nth-child(5) {
+  z-index: 10;
+  margin-left: 200px;
+}
+
+header .navbar .container .collapse .navbar-nav .nav-item:nth-child(5) .nav-link {
+  color: #FF2E63;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+header .cycel-pos {
+  position: absolute;
+  top: -450px;
+  left: 1000px;
+}
+
+header .Cómo-funciona {
+  margin-top: 100px;
+}
+
+header .Cómo-funciona .Cómo-funciona-text {
+  width: 50%;
+}
+
+header .Cómo-funciona .Cómo-funciona-text h1 {
+  font-size: 50px;
+  width: 75%;
+}
+
+header .Cómo-funciona .Cómo-funciona-text h1 span {
+  display: inline-block;
+  padding-bottom: 20px;
+  border-bottom: solid 10px #FF2E63;
+}
+
+header .Cómo-funciona .Cómo-funciona-text p {
+  opacity: .5;
+  margin: 20px 0;
+}
+
+header .Cómo-funciona .Cómo-funciona-text button {
+  background-color: #08D9D6;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+header .Cómo-funciona .Cómo-funciona-img {
+  width: 50%;
+  z-index: 20;
+}
+
+header .Cómo-funciona .Cómo-funciona-img img {
+  width: 100%;
+}
+
+.Precios {
+  position: absolute;
+  left: -250px;
+}
+
+.Testimonios {
+  position: relative;
+  padding: 100px;
+  margin-top: 100px;
+}
+
+.Testimonios .Testimonios-img {
+  width: 50%;
+}
+
+.Testimonios .Testimonios-img img {
+  width: 100%;
+}
+
+.Testimonios .Testimonios-text {
+  width: 50%;
+  position: relative;
+}
+
+.Testimonios .Testimonios-text h2 {
+  font-size: 46px;
+  width: 75%;
+  color: #FF2E63;
+}
+
+.Testimonios .Testimonios-text h2 span {
+  display: inline-block;
+  padding-bottom: 20px;
+  border-bottom: solid 10px #252A34;
+}
+
+.Testimonios .Testimonios-text p {
+  opacity: .5;
+  margin: 20px 0;
+}
+
+.Testimonios .Testimonios-text button {
+  background-color: #252A34;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.Testimonios .Precios-sec {
+  position: absolute;
+  right: -250px;
+  bottom: 150px;
+}
+
+.Contacto {
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../imags/header-tre-img.svg");
+}
+
+.Contacto .Contacto-text {
+  padding-top: 100px;
+}
+
+.Contacto .Contacto-text h1 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.Contacto .Contacto-text p {
+  color: #fff;
+  text-align: center;
+}
+
+.Contacto .Contacto-text button {
+  background-color: #08D9D6;
+  color: #fff;
+  border-bottom: 15px 30px;
+  position: absolute;
+  right: 610px;
+}
+
+.Descarga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  padding: 30px 40px 40px 40px;
+}
+
+.Descarga .Descarga-text {
+  width: 33.333%;
+}
+
+.Descarga .Descarga-text h1 {
+  font-size: 50px;
+}
+
+.Descarga .Descarga-text ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Descarga .Descarga-text li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.Descarga .Descarga-text-sec {
+  width: 33.333%;
+  padding: 30px 40px 40px 40px;
+}
+
+.Descarga .Descarga-text-ssa {
+  width: 34.333%;
+  padding: 30px 40px 40px 40px;
+}
+
+.Descarga .Descarga-text-tre {
+  width: 32.333%;
+  padding: 0px 40px 40px 40px;
+}
+
+.Descarga .Descarga-text-tre p {
+  font-size: 10px;
+}
+
+.Descarga .Descarga-text-tre .img-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+@media (max-width: 991.98px) {
+  header .navbar .container .collapse .navbar-nav .nav-item {
+    margin: 0;
+    position: relative;
+  }
+  header .navbar .container .collapse .navbar-nav .nav-item:nth-child(5) {
+    margin: 0;
+  }
+  header .Cómo-funciona .Cómo-funciona-text {
+    width: 100%;
+  }
+  header .Cómo-funciona .Cómo-funciona-text h1 {
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+  }
+  header .Cómo-funciona .Cómo-funciona-text h1 span {
+    padding: 0;
+    border-style: none;
+  }
+  header .Cómo-funciona .Cómo-funciona-text p {
+    text-align: center;
+    padding: 0;
+    font-size: 14px;
+  }
+  header .Cómo-funciona .Cómo-funciona-text p span {
+    display: none;
+  }
+  header .Cómo-funciona .Cómo-funciona-text button {
+    margin: 10px 0;
+    margin-left: 20%;
+  }
+  header .Cómo-funciona .Cómo-funciona-img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
